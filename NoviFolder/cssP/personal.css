@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .drpmen{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .drpmen{ display: block; }
+	.navbar .nav-item .drpmen{ margin-top:0; }
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .drp2{ display: none; }
+	.navbar .dropright:hover .nav-link{ color: #fff;  }
+	.navbar .dropright:hover .drp2{ display: block; }
+	.navbar .nav-item .drp2{ margin-top:0; }
+}
+
+.title {
+	text-align: center;
+	font-family: 'Emilys Candy';
+	color: red;
+}
+
+#ImpL{
+margin-top: -50px;
+rotate: 25deg;
+}
+
+#BRL{
+	rotate: -30deg;
+	z-index: -1;
+	position: fixed;
+	}
+
+#BRR{
+	
+	margin-top: -405px;
+	margin-left: 255px;
+	z-index: -1;
+	position: fixed;
+	}
+
+
+.body{
+	background-image: url('pic/RaveBckg.jpg');
+	background-repeat:  1; 
+}
+#includedContent{
+	display: none;
+}
